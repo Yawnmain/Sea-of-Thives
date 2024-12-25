@@ -1,0 +1,103 @@
+[gd_scene load_steps=20 format=3 uid="uid://cdrgt8blg5vsp"]
+
+[ext_resource type="Script" path="res://scripts/pirat.gd" id="1_fevnc"]
+[ext_resource type="Texture2D" uid="uid://bchmeiejibsb8" path="res://pictures/Idle Sword 01.png" id="2_dlg27"]
+[ext_resource type="Texture2D" uid="uid://dyhnkq2s5jnrh" path="res://pictures/Idle Sword 02.png" id="3_gdvtu"]
+[ext_resource type="Texture2D" uid="uid://bi8jmevrjhsns" path="res://pictures/Idle Sword 03.png" id="4_8has3"]
+[ext_resource type="Texture2D" uid="uid://6lnml0rmw8x0" path="res://pictures/Idle Sword 04.png" id="5_koysg"]
+[ext_resource type="Texture2D" uid="uid://1v3k5xdtct6" path="res://pictures/Idle Sword 05.png" id="6_ixehn"]
+[ext_resource type="Texture2D" uid="uid://kmawrtb50xvp" path="res://pictures/Jump Sword 01.png" id="7_lig8g"]
+[ext_resource type="Texture2D" uid="uid://ddi8pesgedi1u" path="res://pictures/Jump Sword 02.png" id="8_rtrsn"]
+[ext_resource type="Texture2D" uid="uid://gy3qh3v12add" path="res://pictures/Jump Sword 03.png" id="9_6ohfl"]
+[ext_resource type="Texture2D" uid="uid://bbnvkqs31agoy" path="res://pictures/Run Sword 01.png" id="10_33l0p"]
+[ext_resource type="Texture2D" uid="uid://be2m7tprmgwkd" path="res://pictures/Run Sword 02.png" id="11_tcenc"]
+[ext_resource type="Texture2D" uid="uid://bxo8gxpmlof2" path="res://pictures/Run Sword 03.png" id="12_v8fju"]
+[ext_resource type="Texture2D" uid="uid://hr2g4sdjiee2" path="res://pictures/Run Sword 04.png" id="13_rujgy"]
+[ext_resource type="Texture2D" uid="uid://dq1288w1uvpst" path="res://pictures/Run Sword 05.png" id="14_oeghg"]
+[ext_resource type="Texture2D" uid="uid://i1kuu1kjtfp7" path="res://pictures/Run Sword 06.png" id="15_aj6wf"]
+[ext_resource type="AudioStream" uid="uid://cml4cxfrdngwo" path="res://sounds/sonic-ring-sound.mp3" id="16_2oknq"]
+[ext_resource type="AudioStream" uid="uid://c1qdfbd0n4qo4" path="res://sounds/final-fantasy-v-music-victory-fanfare_2.mp3" id="17_3yed0"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6s7ja"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dlg27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_gdvtu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_8has3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_koysg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_ixehn")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_lig8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_rtrsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_6ohfl")
+}],
+"loop": true,
+"name": &"jumping",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_33l0p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_tcenc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_v8fju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rujgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_oeghg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_aj6wf")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ly8oh"]
+size = Vector2(64, 80.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_fevnc")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-2, -8)
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_6s7ja")
+animation = &"jumping"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -12.75)
+shape = SubResource("RectangleShape2D_ly8oh")
+
+[node name="Coin" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_2oknq")
+volume_db = 5.622
+
+[node name="LevelUP" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_3yed0")

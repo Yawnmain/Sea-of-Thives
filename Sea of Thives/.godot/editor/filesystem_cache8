@@ -1,0 +1,59 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1735135548
+icon.svg::CompressedTexture2D::248835688952499833::1732981208::1735134673::1::::<><>::
+::res://Global/::1735134023
+AudioPlayer.tscn::PackedScene::1925349588397883297::1735134023::0::1::::<><>::res://Global/audio_player.gd
+audio_player.gd::GDScript::-1::1735132231::0::1::::<>AudioStreamPlayer<>::
+audio_player.tscn::PackedScene::4950445455215572419::1732981208::0::1::::<><>::res://Global/audio_player.gd
+::res://pictures/::1735134674
+01.png::CompressedTexture2D::6171590883344625994::1581313258::1735134673::1::::<><>::
+08.png::CompressedTexture2D::2264665502523366148::1581313038::1735134673::1::::<><>::
+23.png::CompressedTexture2D::1914960682865351262::1581313178::1735134673::1::::<><>::
+BG Image.png::CompressedTexture2D::3633137767571992440::1573925586::1735134673::1::::<><>::
+Big Clouds.png::CompressedTexture2D::159134837839743047::1573925514::1735134673::1::::<><>::
+Chest Close 03.png::CompressedTexture2D::1057064696332616769::1573935710::1735134673::1::::<><>::
+fon.png::CompressedTexture2D::8106857956191388241::1576369248::1735134673::1::::<><>::
+Green Board (guide).png::CompressedTexture2D::1924704443659412496::1575262012::1735134673::1::::<><>::
+Idle Sword 01.png::CompressedTexture2D::2541985189122089907::1574515838::1735134673::1::::<><>::
+Idle Sword 02.png::CompressedTexture2D::8859053004457130405::1574515838::1735134673::1::::<><>::
+Idle Sword 03.png::CompressedTexture2D::3016624024462108604::1574515838::1735134673::1::::<><>::
+Idle Sword 04.png::CompressedTexture2D::2199373675672788091::1574515838::1735134673::1::::<><>::
+Idle Sword 05.png::CompressedTexture2D::54999453310394453::1574515838::1735134673::1::::<><>::
+Jump Sword 01.png::CompressedTexture2D::726701179229720637::1574515856::1735134674::1::::<><>::
+Jump Sword 02.png::CompressedTexture2D::7388374289873711296::1574515856::1735134674::1::::<><>::
+Jump Sword 03.png::CompressedTexture2D::472407188333492865::1574515856::1735134674::1::::<><>::
+MonedaD.png::CompressedTexture2D::7850217504422472774::1454895776::1735134674::1::::<><>::
+Orange Paper (guide).png::CompressedTexture2D::1479358951921706894::1575262122::1735134673::1::::<><>::
+Platforms (32x32).png::CompressedTexture2D::7047105975364274424::1581312122::1735134673::1::::<><>::
+Run Sword 01.png::CompressedTexture2D::2484740222408081068::1574515848::1735134673::1::::<><>::
+Run Sword 02.png::CompressedTexture2D::2723701028827417599::1574515848::1735134673::1::::<><>::
+Run Sword 03.png::CompressedTexture2D::118578852447617845::1574515848::1735134673::1::::<><>::
+Run Sword 04.png::CompressedTexture2D::528067951985652963::1574515848::1735134673::1::::<><>::
+Run Sword 05.png::CompressedTexture2D::8337657429362074587::1574515848::1735134673::1::::<><>::
+Run Sword 06.png::CompressedTexture2D::615828547614627866::1574515848::1735134673::1::::<><>::
+Small Cloud 3.png::CompressedTexture2D::7793790526027601995::1573925462::1735134673::1::::<><>::
+Spikes.png::CompressedTexture2D::2829033374248712895::1573935898::1735134673::1::::<><>::
+Terrain and Back Wall (32x32).png::CompressedTexture2D::4192876823039334980::1581312036::1735134673::1::::<><>::
+Yellow Board (guide).png::CompressedTexture2D::6382954580170569729::1575262054::1735134673::1::::<><>::
+::res://scenes/::1735135450
+coin_collect.tscn::PackedScene::4082332443945821225::1735125192::0::1::::<><>::res://scripts/coin_collect.gd<>uid://dj3x62jwg6muw::::res://pictures/MonedaD.png
+die.tscn::PackedScene::504600956207578416::1735129027::0::1::::<><>::res://scripts/die.gd<>uid://dnra1bviv84u4::::res://pictures/fon.png
+finish.tscn::PackedScene::1508483529963120476::1735135377::0::1::::<><>::res://scripts/finish.gd<>uid://br06io7gpn5ku::::res://pictures/BG Image.png<>uid://pcbx3qn5age8::::res://pictures/Chest Close 03.png<>uid://2oluo0c4nvae::::res://pictures/Green Board (guide).png<>uid://vcu3cvj0ifnq::::res://pictures/Orange Paper (guide).png<>uid://c7nw2nr6gfvsy::::res://pictures/Platforms (32x32).png<>uid://b00cclny5s1mu::::res://pictures/Terrain and Back Wall (32x32).png<>uid://cw67lg0yoyg5n::::res://pictures/Yellow Board (guide).png<>uid://ct6tg2nnw0iis::::res://pictures/01.png<>uid://7jayeyce4khg::::res://pictures/08.png<>uid://2jvef2lbp76y::::res://pictures/23.png<>uid://cdrgt8blg5vsp::::res://scenes/pirat.tscn<>uid://bk86svsba5gk4::::res://scenes/menu.tscn<>res://scripts/ccounter.gd<>uid://byfroijb61sfx::::res://scenes/coin_collect.tscn<>uid://cck58dljqrxv1::::res://scenes/spike.tscn
+level1.tscn::PackedScene::524759801068551737::1735135377::0::1::::<><>::uid://br06io7gpn5ku::::res://pictures/BG Image.png<>uid://2oluo0c4nvae::::res://pictures/Green Board (guide).png<>uid://vcu3cvj0ifnq::::res://pictures/Orange Paper (guide).png<>uid://c7nw2nr6gfvsy::::res://pictures/Platforms (32x32).png<>uid://cdrgt8blg5vsp::::res://scenes/pirat.tscn<>uid://b00cclny5s1mu::::res://pictures/Terrain and Back Wall (32x32).png<>uid://byfroijb61sfx::::res://scenes/coin_collect.tscn<>uid://cw67lg0yoyg5n::::res://pictures/Yellow Board (guide).png<>uid://vqyrd4r1et4w::::res://scenes/finish.tscn<>uid://ct6tg2nnw0iis::::res://pictures/01.png<>res://scripts/ccounter.gd<>uid://7jayeyce4khg::::res://pictures/08.png<>uid://2jvef2lbp76y::::res://pictures/23.png<>uid://bq00wijuawoe0::::res://scenes/level2.tscn<>uid://cck58dljqrxv1::::res://scenes/spike.tscn
+level2.tscn::PackedScene::3562609273037813321::1735135450::0::1::::<><>::uid://br06io7gpn5ku::::res://pictures/BG Image.png<>uid://2oluo0c4nvae::::res://pictures/Green Board (guide).png<>uid://vcu3cvj0ifnq::::res://pictures/Orange Paper (guide).png<>uid://c7nw2nr6gfvsy::::res://pictures/Platforms (32x32).png<>uid://b00cclny5s1mu::::res://pictures/Terrain and Back Wall (32x32).png<>uid://cw67lg0yoyg5n::::res://pictures/Yellow Board (guide).png<>uid://ct6tg2nnw0iis::::res://pictures/01.png<>uid://7jayeyce4khg::::res://pictures/08.png<>uid://2jvef2lbp76y::::res://pictures/23.png<>uid://cdrgt8blg5vsp::::res://scenes/pirat.tscn<>uid://vqyrd4r1et4w::::res://scenes/finish.tscn<>uid://bk86svsba5gk4::::res://scenes/menu.tscn<>res://scripts/ccounter.gd<>uid://byfroijb61sfx::::res://scenes/coin_collect.tscn<>uid://cck58dljqrxv1::::res://scenes/spike.tscn
+menu.tscn::PackedScene::3158349087866900377::1735135377::0::1::::<><>::res://scripts/menu.gd<>uid://dnra1bviv84u4::::res://pictures/fon.png
+pirat.tscn::PackedScene::5018902287484478135::1735125299::0::1::::<><>::res://scripts/pirat.gd<>uid://bchmeiejibsb8::::res://pictures/Idle Sword 01.png<>uid://dyhnkq2s5jnrh::::res://pictures/Idle Sword 02.png<>uid://bi8jmevrjhsns::::res://pictures/Idle Sword 03.png<>uid://6lnml0rmw8x0::::res://pictures/Idle Sword 04.png<>uid://1v3k5xdtct6::::res://pictures/Idle Sword 05.png<>uid://kmawrtb50xvp::::res://pictures/Jump Sword 01.png<>uid://ddi8pesgedi1u::::res://pictures/Jump Sword 02.png<>uid://gy3qh3v12add::::res://pictures/Jump Sword 03.png<>uid://bbnvkqs31agoy::::res://pictures/Run Sword 01.png<>uid://be2m7tprmgwkd::::res://pictures/Run Sword 02.png<>uid://bxo8gxpmlof2::::res://pictures/Run Sword 03.png<>uid://hr2g4sdjiee2::::res://pictures/Run Sword 04.png<>uid://dq1288w1uvpst::::res://pictures/Run Sword 05.png<>uid://i1kuu1kjtfp7::::res://pictures/Run Sword 06.png<>uid://cml4cxfrdngwo::::res://sounds/sonic-ring-sound.mp3<>uid://c1qdfbd0n4qo4::::res://sounds/final-fantasy-v-music-victory-fanfare_2.mp3
+spike.tscn::PackedScene::4935743448178614824::1735129027::0::1::::<><>::res://scripts/spike.gd<>uid://bgkn1b5q8t3x0::::res://pictures/Spikes.png
+::res://scripts/::1735134483
+ccounter.gd::GDScript::-1::1735134483::0::1::::<>Node<>::
+coin_collect.gd::GDScript::-1::1735123729::0::1::::<>Area2D<>::
+die.gd::GDScript::-1::1735128701::0::1::::<>Node<>::
+finish.gd::GDScript::-1::1735134483::0::1::::<>Area2D<>::
+global.gd::GDScript::-1::1732981208::0::1::::<>Node<>::
+menu.gd::GDScript::-1::1735134366::0::1::::<>Node<>::
+pirat.gd::GDScript::-1::1735128803::0::1::::<>CharacterBody2D<>::
+spike.gd::GDScript::-1::1735128675::0::1::::<>Area2D<>::
+::res://sounds/::1735134673
+04. Maiden Voyage.mp3::AudioStreamMP3::2630064885533478106::1735123382::1735134673::1::::<><>::
+final-fantasy-v-music-victory-fanfare_2.mp3::AudioStreamMP3::6630972484300004561::1735123596::1735134673::1::::<><>::
+sonic-ring-sound.mp3::AudioStreamMP3::5639581227253290762::1735123229::1735134673::1::::<><>::
